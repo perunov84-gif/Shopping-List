@@ -28,6 +28,8 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
+          # версия закреплена: обновление Flutter — отдельным коммитом, чтобы сборка не ломалась внезапно
+          flutter-version: '3.50.0'
           cache: true
 
       - name: Prepare log dir
