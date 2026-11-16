@@ -1,0 +1,13 @@
+I/flutter ( 6043): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(105)] Using the Impeller rendering backend (OpenGLES).
+I/flutter ( 6043): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(105)] Using the Impeller rendering backend (OpenGLES).
+I/flutter ( 6043): Null check operator used on a null value
+I/flutter ( 6043): #0      _WidgetsAppState._onUnknownRoute (package:flutter/src/widgets/app.dart:1593)
+I/flutter ( 6043): #1      NavigatorState._routeNamed (package:flutter/src/widgets/navigator.dart:4714)
+I/flutter ( 6043): #2      NavigatorState.pushNamed (package:flutter/src/widgets/navigator.dart:4762)
+I/flutter ( 6043): #3      _WidgetsAppState.didPushRouteInformation (package:flutter/src/widgets/app.dart:1639)
+I/flutter ( 6043): #4      WidgetsBinding._handlePushRouteInformation (package:flutter/src/widgets/binding.dart:1300)
+I/flutter ( 6043): <asynchronous suspension>
+I/flutter ( 6043): #5      MethodChannel._handleAsMethodCall (package:flutter/src/services/platform_channel.dart:606)
+I/flutter ( 6043): <asynchronous suspension>
+I/flutter ( 6043): #6      _DefaultBinaryMessenger.setMessageHandler.<anonymous closure> (package:flutter/src/services/binding.dart:664)
+I/flutter ( 6043): <asynchronous suspension>
