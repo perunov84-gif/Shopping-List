@@ -32,5 +32,5 @@ class AppConfig {
   static const interstitialMinInterval = Duration(minutes: 4);
   static const interstitialSkipFirstLaunches = 2;
 
-  static const privacyPolicyUrl = 'https://github.com/perunov84-gif/shopping-list/blob/main/docs/privacy-policy.md';
+  static const privacyPolicyUrl = 'https://github.com/perunov84-gif/Shopping-List/blob/main/docs/privacy-policy.md';
 }

@@ -7,7 +7,7 @@ import '../models/store_category.dart';
 
 /// Список внутри ссылки. Данные лежат прямо в ссылке (после «#»), сервер их не видит и не хранит.
 ///
-/// Ссылка: https://perunov84-gif.github.io/shopping-list/s/#1.<данные>
+/// Ссылка: https://perunov84-gif.github.io/Shopping-List/s/#1.<данные>
 ///  * в мессенджере она кликабельна;
 ///  * страница сразу открывает приложение (а если его нет — показывает список в браузере
 ///    и предлагает установить приложение);
@@ -29,7 +29,7 @@ class SharedItem {
 }
 
 class ShareLink {
-  static const webBase = 'https://perunov84-gif.github.io/shopping-list/s/';
+  static const webBase = 'https://perunov84-gif.github.io/Shopping-List/s/';
   static const scheme = 'shoppinglist';
   static final _zlib = ZLibCodec(raw: true, level: 9);
 
@@ -67,7 +67,7 @@ class ShareLink {
     String? data;
     if (uri.scheme == scheme) {
       data = uri.queryParameters['d'];
-    } else if (uri.scheme == 'https' && uri.path.contains('/shopping-list/s')) {
+    } else if (uri.scheme == 'https' && uri.path.toLowerCase().contains('/shopping-list/s')) {
       data = uri.fragment;
     }
     if (data == null || data.isEmpty) return null;

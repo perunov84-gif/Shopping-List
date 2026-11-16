@@ -32,8 +32,8 @@ jobs:
           gh api repos/${{ github.repository }}/pages > pages_api.json 2>&1 || \
             gh api -X POST repos/${{ github.repository }}/pages -f 'source[branch]=gh-pages' -f 'source[path]=/' > pages_create.json 2>&1 || true
           sleep 60
-          curl -s -o /dev/null -w "root %{http_code}\n" https://perunov84-gif.github.io/shopping-list/ > live.txt
-          curl -s -o /dev/null -w "share %{http_code}\n" https://perunov84-gif.github.io/shopping-list/s/ >> live.txt
+          curl -s -o /dev/null -w "root %{http_code}\n" https://perunov84-gif.github.io/Shopping-List/ > live.txt
+          curl -s -o /dev/null -w "share %{http_code}\n" https://perunov84-gif.github.io/Shopping-List/s/ >> live.txt
           git init -q && git checkout -q -b logs
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

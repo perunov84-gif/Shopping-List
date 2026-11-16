@@ -3,7 +3,7 @@
 Мобильное приложение для Android и iOS (Flutter): списки покупок по магазинам в пару касаний или голосом,
 подсказки «не забыть купить» и режим «в магазине» с галочками. Работает офлайн, без ИИ и без аккаунта.
 
-**Скачать тестовую сборку:** [Releases](https://github.com/perunov84-gif/shopping-list/releases/latest)
+**Скачать тестовую сборку:** [Releases](https://github.com/perunov84-gif/Shopping-List/releases/latest)
 (`shopping-list-rustore.apk` — Яндекс Реклама, `shopping-list-gplay.apk` — AdMob).
 
 ## Возможности
